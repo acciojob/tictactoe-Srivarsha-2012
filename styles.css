@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.board {
+  width: 300px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 20px;
+  margin-top: 10px;
+}
